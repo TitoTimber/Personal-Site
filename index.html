@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- css stylessheet -->
+    <link href="./styles.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+<div id="header" class="container-fluid px-lg-5">
+  <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+    <p class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+      <img src="./images/gifs/mario-head-spinning.gif" style="height: 40px;"/>
+      <span class="fs-4 dm-serif">Priyanshu Shekhar</span>
+    </p>
+
+    <ul class="nav nav-pills alegreya-sans">
+      <li class="nav-item"><a href="#intro-page" class="nav-link active" aria-current="page">Home</a></li>
+      <li class="nav-item"><a href="#about-page" class="nav-link">Myself</a></li>
+      <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+      <li class="nav-item"><a href="#contact-me" class="nav-link">Contact Me</a></li>
+      <!-- <li class="nav-item"><a href="#" class="nav-link">About</a></li> -->
+    </ul>
+  </header>
+</div>
+<section id="intro-page">
+  <div class="container px-4 pt-5">
+    <div class="row pt-5 pb-3">
+      <div class="col-lg-12">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 dm-serif">Welcome Abroad</h1>
+        <h2 class="dm-serif white-text">U’ve landed on my page!</h2>
+        <div class="middle-empty" style="height: 50vh;"></div>
+        <div class="scroll-down">
+          <p class="text-center mb-0 alegreya-sans">Scroll down to explore.</p>
+          <div class="text-center"><img src="./images/down-arrow.png" alt="down-arrow" width="20px"/></div> 
+        </div>  
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="content">
+<section id="blur-effect">
+  <div class="border-red" style="background-color:tan; height: 20px; width: 100%;"></div>
+  <section id="about-page">
+    <div class="container px-4 pt-2 mb-0">
+      <div class="row pt-5 pb-3">
+        <div class="col-lg-12">
+          <h1 class="lh-1 dm-serif white-text">Myself Priyanshu</h1>
+          <h1 class="lh-1 mb-3 dm-serif white-text">Shekhar <img src="./images/gifs/cat-yarn-unscreen.gif" alt="cat playing with yarn" height="100px" style="transform: translateX(-20%);"/></h1>
+          <h2 class="alegreya-sans" style="color: #d9d9d9; font-size: xx-large;">I’m a <span class="web pb-5 dm-serif">web</span> designer.\</h2>
+          <p class="col-lg-6 mb-0 alegreya-sans" style="font-size: x-large;">I am passionate about harnessing my skills to conjure meaningful and innovative solutions. As an artist at heart, I strive to translate my emotions onto the canvas with every brushstroke.</p>
+        </div>
+      </div>
+        <div class="row row-cols-1 row-cols-lg-2 g-2 mt-2">
+          <div class="col-lg-2"><img class="pb-4" src="./images/gifs/mario-brick-unscreen.gif" alt="dancing girl" style="max-height: 200px;"/> </div>
+          <div class="col"><p class="alegreya-sans" style="font-size: x-large; color: white">I'm currently pursuing a Computer Science degree from IIIT Bhubaneswar. Besides being a programmer, I also have knowledge of the 3D world (not ours, I'm afraid). I'm talking about the Rendered 3D world, I have potrayed some of my works below, if you like them, do let me know :)</p></div>
+        </div>
+        <p class="alegreya-sans pt-2" style="font-size: x-large; text-align: justify;">My hobbies include watching cartoons, anime, movies etc. and playing soccer. I'm a goofy sleepy head, who sleeps anywhere, anytime. But hates sleeping early.</p>
+    </div>
+  </section>
+
+  <div class="container mt-5 pt-2">
+    <h2 class="pb-2 border-bottom dm-serif white-text">My Skills</h2>
+  </div>
+  <section id="skills">
+    <div class="container mt-5">
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade p-2">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./images/cards/Blender_3d.png" class="d-block w-100 card-image" alt="blender 3d example image">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="dm-serif" style="font-size: xxx-large;">3D Design & Animation</h3>
+            <p class="alegreya-sans" style="font-size: x-large; color: #000000;">Can also render the world ǝpᴉsd∩ uʍop</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/cards/hello-world.jpg" class="d-block w-100 card-image" alt="c-cpp image">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="dm-serif" style="font-size: xxx-large;">Data Structure and Algorithms</h3>
+            <p class="alegreya-sans" style="font-size: x-large;">Basically know how to print HELLO WORLD!</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./images/cards/web-dev.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h3 class="dm-serif" style="font-size: xxx-large;">Web Development</h3>
+            <p class="alegreya-sans" style="font-size: x-large;">Otherwise, how would I have created this website?</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+    <div class="container skills-info">
+      <div class="row row-cols-1 row-cols-lg-2 g-2 mt-5 justify-content-center">
+        <div class="col">
+          <p class="alegreya-sans" style="font-size: x-large; color: white">I've been running codes for a while now, not sure where it would lead me, but it seems fun ^__^. I'm fluent in C++ and C languages, and can solve intricate problems of Data Structure and Algorithms.</p>
+        </div>
+        <div class="col-lg-2 dino-gif"><img class="pb-4" src="./images/gifs/mario-dino.gif" alt="dancing girl" style="max-height: 150px;"/> </div>
+      </div>
+    </div>
+    <div class="container skills-info">
+      <div class="row row-cols-1 row-cols-lg-2 g-2 justify-content-center">
+        <div class="col-lg-2"><img class="pb-4" src="./images/gifs/mario-luigi-dance.gif" alt="dancing girl" style="max-height: 150px;"/> </div>
+        <div class="col">
+          <p class="alegreya-sans" style="font-size: x-large; color: white">I've keen interest in modern artistic designs, and as a designer myself I take pleasure in modelling and animating unique ideas. I've earned years of pratice on Blender 3D software and completed various projects. You may find them on my LinkedIn profile.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact-me">
+    <div class="container mt-5" style="text-align: center;">
+      <h2 class="pb-2 dm-serif"><span style="border-bottom: 2px solid blue;">Get in Touch</span></h2>
+      <div class="alegreya-sans lead" style="font-size: large;">
+        <p>I’m fluent in speaking the web language , along with the human one.</p>
+
+        <p>If you wanna have a talk, contact me below.</p> 
+          
+        <p>P.S. you may use any language.</p> 
+      </div>
+      <a href="mailto:priyanshu01singh01@gmail.com" class="btn btn-outline-dark">Mail Me</a>
+    </div>
+  </section>
+  <section id="footer">
+    <div class="container">
+      <footer class="py-3 mt-4 alegreya-sans">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="https://www.linkedin.com/in/priyanshu01shekhar01" class="nav-link px-2 text-body-secondary">LinkedIN</a></li>
+          <li class="nav-item"><a href="https://github.com/TitoTimber" class="nav-link px-2 text-body-secondary">GitHub</a></li>
+          <li class="nav-item"><a href="priyanshu01singh01@gmail.com" class="nav-link px-2 text-body-secondary">Email</a></li>
+          <!-- <li class="nav-item"><a href="#contact-me" class="nav-link px-2 text-body-secondary">Contact-Me</a></li> -->
+          <!-- <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li> -->
+        </ul>
+        <p class="text-center text-body-secondary">© Priyanshu Shekhar, 2024</p>
+      </footer>
+    </div>
+  </section>
+</section>
+</section>
+</body>
+</html>

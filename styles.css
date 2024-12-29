@@ -1,0 +1,74 @@
+#content{
+    background-image: url(./images/bg/wool.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+#blur-effect{
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px); /*for-apple-safari*/
+}
+body{
+    background-image: url(./images/bg/yellow-container.png);
+    background-repeat: no-repeat;
+}
+#header{
+    position: sticky; 
+    top: 0; 
+    left: 0; 
+    z-index: 100;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.web{
+    background-image: url(./images/web.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    /* font properties */
+    color:rgba(224, 163, 28,0.1); 
+    font-weight: bold; 
+    -webkit-text-stroke: 1px white;
+}
+
+.card-image{
+    background-size: contain;
+}
+
+/* card hovering animation */
+.carousel{
+    transition: transform .5s;
+  
+    &:hover,
+    &:focus {
+      transform: scale3d(1.006, 1.006, 1);
+    }
+}
+
+/*fonts*/
+    .dm-serif {
+        font-family: "DM Serif Display", serif;
+        font-weight: 400;
+        font-style: normal;
+    }
+    .alegreya-sans {
+    font-family: "Alegreya Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+    }
+    .white-text{
+        color: #fff;
+    }
+
+@media (max-width: 600px){
+    #header{
+        position: relative; /*on small devices the header shouldn't remain sticky*/
+    }
+    .dino-gif{
+        display: none;
+    }
+    body{
+        text-align: justify;
+    }
+}
