@@ -20,6 +20,15 @@ body{
     z-index: 100;
     background-color: rgba(0,0,0,0.1);
 }
+.mario-gif{
+    display: none;
+}
+#header-name:hover .mario-gif{
+    display: block;
+}
+#header-name:hover .mario-png{
+    display: none;
+}
 
 .web{
     background-image: url(./images/web.svg);
